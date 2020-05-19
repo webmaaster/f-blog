@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Welcome to my blog!</h1>
-    <img src="assets/domenico-loia-hGV2TfOh0ns-unsplash.jpg" alt=""> 
+    <img src="assets/domenico-loia-hGV2TfOh0ns-unsplash.jpg" alt="photo-design" width="600" height="300"> 
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium aut voluptatum laboriosam earum omnis repudiandae perspiciatis quos ipsum. Vero modi laboriosam optio veniam doloribus impedit maiores harum iusto accusamus velit. Repudiandae impedit officiis laborum, consectetur doloremque, eum reiciendis ducimus fuga facilis, laboriosam architecto culpa quae esse molestias sit repellendus ex!</p>
     
     <h3>I love working with the following technologies:</h3>
@@ -30,17 +30,14 @@
     <!--Video-->
     <iframe width="560" height="315" src="https://www.youtube.com/embed/aPEv5ZEaGVU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    <p>Please subscribe:</p>
-    <input type="text">
-    <input type="date">
-    <input type="radio">
+    
     <table border="1">
 
     <h3>Who we are?</h3>
         <thead>
             <tr>
                 <th>Babul Nokrek</th>
-                <th>Software Engineer,</th>
+                <th>Instructor, Coding Dojo</th>
 
                 <th>New York</th>
             </tr>
@@ -63,5 +60,48 @@
 
     </table>
 
+    <h2>Love Coding? Join now:</h2>
+    <label for="first_name">First Name:</label>
+    <input type="text" id="first_name" name="first_name"> <br>
+    <label for="last_name">Last Name:</label>
+    <input type="text" id="last_name" name="last_name"><br>
+
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email"><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password"><br>
+
+    <label for="password">Password Confirm:</label>
+    <input type="password" id="password" name="password"><br>
+
+    <label for="birth_date" id="birth-date" name="birthdate" >Date of Birth:</label>
+    <input type="date"><br>
+
+    <p>Select your Gender:</p>
+
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="gender" value="male">
+    
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gender" value="woman">
+    
+    <label for="other">Other</label>
+    <input type="radio" id="other" name="gender" value="other">
+
+    <p>Tell about you in brief:</p>
+    <textarea name="description" id="" cols="30" rows="10"></textarea>
+
+    <p>Favorite language:</p>
+    <select name="languages" size="3">
+        <option value="javascript">Javascript</option> <br>
+        <option value="python">Python</option><br>
+        <option value="java">Java</option><br>
+        <option value="ruby">Ruby</option>
+      </select> <br>
+
+    <input type="submit" value="Submit">
+
+    <h2>Thanks for joining us!</h2>
 </body>
 </html>
