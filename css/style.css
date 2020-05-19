@@ -4,3 +4,15 @@
     padding: 50px;
     background-color: antiquewhite;
 }
+
+h1, h2, h3 {
+    color: crimson;
+    margin-bottom: 10px;
+
+}
+
+h1:hover, h2:hover, h3:hover {
+    color: blueviolet;
+    margin-bottom: 10px;
+    
+}
